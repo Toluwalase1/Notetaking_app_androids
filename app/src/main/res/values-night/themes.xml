@@ -2,6 +2,10 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.NotetakingApp30" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/light_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
     </style>
 </resources>

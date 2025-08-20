@@ -3,6 +3,7 @@ package com.example.note_taking_app_30
 import NoteViewModelFactory
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.lifecycle.ViewModelProvider
 import com.example.note_taking_app_30.database.NoteDatabase
 import com.example.note_taking_app_30.repository.NoteRepository
@@ -15,6 +16,8 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+
+        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 

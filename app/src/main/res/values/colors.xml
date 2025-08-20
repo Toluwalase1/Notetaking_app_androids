@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_blue">#03A9F4</color>
     <color name="purple">#9C27B0</color>
+
+    <!-- Add these for light mode -->
+    <color name="text_primary">#000000</color>      <!-- Black text for light backgrounds -->
+<!--    <color name="text_secondary">#212121</color>   &lt;!&ndash; Dark gray for secondary text &ndash;&gt;-->
+    <color name="text_secondary">#6200EE</color>  <!-- Purple-ish hint color for light mode -->
 </resources>

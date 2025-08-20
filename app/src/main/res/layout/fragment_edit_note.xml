@@ -20,13 +20,15 @@
             android:fontFamily="@font/poppins"
             android:text="Edit Note."
             android:textStyle="bold"
-            android:textColor="@color/purple"
+            android:textColor="@color/text_primary"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="60dp"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
             android:hint="Enter the title"
             android:padding="12dp"
             android:textSize="20sp"
@@ -41,6 +43,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter the description"
+            android:textColor="@color/text_primary"
+            android:textColorHint="@color/text_secondary"
             android:gravity="top"
             android:padding="12dp"
             android:textSize="18sp"

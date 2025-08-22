@@ -2,12 +2,12 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="app">
+      <SelectionState runConfigName="NotetakingApp">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2025-08-13T21:39:37.705463900Z">
+        <DropdownSelection timestamp="2025-08-21T16:13:43.926823200Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="PhysicalDevice" identifier="serial=28b8adb90506" />
+              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\badej\.android\avd\Medium_Phone.avd" />
             </handle>
           </Target>
         </DropdownSelection>
